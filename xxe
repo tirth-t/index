@@ -1,1 +1,2 @@
 <!DOCTYPE example [<!ENTITY xxt SYSTEM "file:///etc/passwd">]>
+<root>&xxt;</root>
