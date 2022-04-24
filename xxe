@@ -1,1 +1,1 @@
-<!DOCTYPE example [<!ENTITY xxe SYSTEM "file:///etc/passwd">]>
+<!DOCTYPE example [<!ENTITY xxt SYSTEM "file:///etc/passwd">]>
